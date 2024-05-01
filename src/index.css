@@ -1,0 +1,1411 @@
+body{
+    width: 1909px;
+    height: 1925px;
+}
+.price_blocks-1{
+    display: none;
+}
+@font-face {
+    font-family: "TTLakes-Regular";
+    src: url(./TTLakes/TTLakes-Regular.woff) format(woff);
+}
+@font-face {
+    font-family: "TTLakes-Medium";
+    src: url(./TTLakes/TTLakes-Medium.woff) format(woff);
+}
+@font-face {
+    font-family: "TTLakes-Bold";
+    src: url(./TTLakes/TTLakes-Bold.woff) format(woff);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 1909px;
+    height: 1925px;
+}
+.container_left{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 320px;
+    height: 1024px;
+}
+.container_main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 1120px;
+    height: 1925px;
+}
+.header, .price_block-1{
+    display: none;
+}
+.left_item-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 320px;
+    height: 88px;
+}
+.left_item-1-1{
+    width: 70px;
+    background-image: url(./img/burger.png);
+    background-repeat: no-repeat;
+    background-position:  24px 24px;
+}
+.left_item-1-2{
+    width: 134px;
+    background-image: url(./img/Group.png);
+    background-repeat: no-repeat;
+    background-position:  10px 15px;
+}
+.left_item-1-3{
+    width: 70px;
+    background-image: url(./img/checkstatus.png);
+    background-repeat: no-repeat;
+    background-position:  24px 24px;
+}
+.left_item-2{
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    width: 300px;
+    height: 450px;
+    padding-left: 16px;
+    font-family: "TTLakes-Regular";
+    font-size: 16px;
+    margin-top: 20px;
+}
+.left_item-3{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    width: 320px;
+    height: 300px;
+    margin-top: 200px;
+}
+.left_item-3-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 210px;
+    height: 40px;
+}
+.item-3-1{
+    background-image: url(./img/call.png);
+    background-repeat: no-repeat;
+    background-position:  16px 0px;
+    border: none;
+    background-color: white;
+}
+
+.item-3-2{
+    background-image: url(./img/chat.png);
+    background-repeat: no-repeat;
+    background-position:  16px 0px;
+    border: none;
+    background-color: white;
+}
+.item-3-3{
+    background-image: url(./img/profile.png);
+    background-repeat: no-repeat;
+    background-position:  16px 0px;
+}
+.left_item-3-2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 320px;
+}
+.item-3-2-1{
+    padding-left: 24px;
+    font-family: "TTLakes-Medium";
+    font-size: 16px;
+}
+.left_item-3-3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.item-3-3-1{
+    padding-left: 24px;
+    font-family: "TTLakes-Bold";
+    font-size: 24px;
+    width: 225px;
+}
+.left-item-3-4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 24px;
+    font-family: "TTLakes-Medium";
+    padding-left: 24px;
+    width: 240px;
+}
+.container_main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 1120px;
+    height: 1925px;
+    background-color: #F8F8F8;
+}
+.header_1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #F8F8F8;
+    width: 1096px;
+    height: 130px;
+    margin-top: 42px;
+}
+.label{
+    background-color: #F8F8F8;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    height: 40px;
+    font-family: "TTLakes-Bold";
+    border-left: 3px solid #41F6D7;
+    width: 266px;
+    height: 40px;
+    padding-left: 33px;
+    font-size: 28px;
+}
+.btn_active:active{
+    border: 2px solid #B8FFEC;
+    background-color: white;    
+}
+.btn_1{
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1;
+    font-size: 16px;
+    font-family: "TTLakes-Regular";
+    width: 170px;
+    height: 40px;
+    background-image: url(./img/repair.png);
+    background-repeat: no-repeat;
+    background-position: 130px 0;
+}
+.p1{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-family: "TTLakes-Regular";
+}
+.p2{
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: "TTLakes-Regular";
+}
+.btn_2{
+    grid-column: 5 / span 1;
+    grid-row: 1 / span 1;
+    font-family: "TTLakes-Regular";
+    width: 170px;
+    height: 40px;
+    background-image: url(./img/checkstatus.png);
+    background-repeat: no-repeat;
+    background-position: 130px 0;
+}
+.btn_3{
+    grid-column: 1 / span 1;
+    grid-row: 2/ span 1;
+    width: 233px;
+    height: 40px;
+    margin-left: 24px;
+}
+.btn_4{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    width: 215px;
+    height: 40px;
+}
+.btn_5{
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    width: 152px;
+    height: 48px;
+}
+.btn_6{
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+    width: 233px;
+    height: 40px;
+}
+.btn_7{
+    grid-column: 5 / span 1;
+    grid-row: 2 / span 1;
+    width: 191px;
+    height: 36px;
+}
+.btn_8{
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    width: 95px;
+    height: 40px;
+    margin-left: 24px;
+}
+.text-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 1120px;
+    height: 310px;
+    background-color: #F8F8F8;
+}
+.text{
+    width: 490px;
+    height: 160px;
+    font-family: "TTLakes-Regular";
+    overflow: hidden;
+}
+.p3{
+    font-family: "TTLakes-Regular";
+    font-size: 14px;
+}
+.image{
+    background-image: url(./img/_MG_3223.png);
+    background-repeat: no-repeat;
+}
+.brends-block{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 1120px;
+    height: 400px;
+    background-color: #F8F8F8;
+}
+.brends{
+    display: grid;
+    width: 1120px;
+    height: 398px;
+    background-color: #F8F8F8;
+}
+.brends_head{
+    width: 1120px;
+    height: 56px;
+    background-image: linear-gradient(90deg, #F8F8F8, #FFFFFF);
+}
+.p4{
+    width: 338px;
+    height: 24px;
+    padding-left: 32px;
+    font-family: "TTLakes-Regular";
+    font-size: 16px;
+    color: #7E7E82;
+}
+.brend{
+    width: 240px;
+    height: 72px;
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 32px;
+}
+.brends_items_1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.brend_1{
+    background-image: url(img/imgBrends/Lenovo.png);
+    background-repeat: no-repeat;
+}
+.brend_2{
+    background-image: url(img/imgBrends/Samsung.png);
+    background-repeat: no-repeat;
+}
+.brend_3{
+    background-image: url(img/imgBrends/Apple.png);
+    background-repeat: no-repeat;
+}
+.brend_4{
+    background-image: url(img/imgBrends/ViewSonic.png);
+    background-repeat: no-repeat;
+}
+.brend_5{
+    background-image: url(img/imgBrends/Bosch.png);
+    background-repeat: no-repeat;
+}
+.brend_6{
+    background-image: url(img/imgBrends/Hp.png);
+    background-repeat: no-repeat;
+}
+.brend_7{
+    background-image: url(img/imgBrends/Acer.png);
+    background-repeat: no-repeat;
+}
+.brend_8{
+    background-image: url(img/imgBrends/Sony.png);
+    background-repeat: no-repeat;
+}
+.brend_9{
+    background-image: url(img/imgBrends/Lenovo.png);
+    background-repeat: no-repeat;
+}
+.brend_10{
+    background-image: url(img/imgBrends/Samsung.png);
+    background-repeat: no-repeat;
+}
+.brend_11{
+    background-image: url(img/imgBrends/Apple.png);
+    background-repeat: no-repeat;
+}
+.brends{
+    max-height: 210px;
+    overflow: hidden;
+}
+.read-more-cheker1{
+    opacity: 0;
+    position: absolute;
+}
+.read-more-button1{
+    cursor: pointer;
+    display: inline-block;
+    font-family: "TTLakes-Regular";
+    margin-left: 32px;
+}
+.read-more-cheker1 ~ .read-more-button1:after{
+    width: 133px;
+    height: 24px;
+    font-size: 16px;
+    content: url('./img/expand.png')"Показать все";
+}
+.read-more-cheker1:checked ~ .read-more-button1:after{
+    width: 88px;
+    height: 24px;
+    font-size: 16px;
+    content: url('./img/expand.png')"Скрыть";
+}
+.read-more-cheker1:checked ~ .brends{
+    max-height: none;
+}
+.tech-block{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 1120px;
+    height: 288px;
+    background-color: #F8F8F8;
+}
+.tech-block-header{
+    width: 1120px;
+    height: 56px;
+    background-image: linear-gradient(90deg, #F8F8F8, #FFFFFF);
+}
+.p5{
+    font-size: 16px;
+    font-family: "TTLakes-Regular";
+    width: 316px;
+    height: 24px;
+    padding-left: 32px
+}
+.techniques{
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(1, 160px);
+    grid-gap: 20px;
+    width: 1120px;
+    height: 130px;
+    overflow: hidden;
+}
+.technique{
+    width: 240px;
+    height: 160px;
+    font-size: 16px;
+    font-family: "TTLakes-Regular";
+    background-color: white;
+    margin-left: 50px;
+}
+.read-more-cheker2{
+    opacity: 0;
+    position: absolute;
+}
+.read-more-button2{
+    cursor: pointer;
+    display: inline-block;
+    font-family: "TTLakes-Regular";
+    margin-left: 32px;
+}
+.read-more-cheker2 ~ .read-more-button2:after{
+    width: 133px;
+    height: 24px;
+    font-size: 16px;
+    content: url('./img/expand.png')"Показать все";
+}
+.read-more-cheker2:checked ~ .read-more-button2:after{
+    width: 88px;
+    height: 24px;
+    font-size: 16px;
+    content: url('./img/expand.png')"Скрыть";
+}
+.read-more-cheker2:checked ~ .brends{
+    max-height: none;
+}
+.price_block{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 56px, 576px);
+    background-color: #F8F8F8;
+    width: 1090px;
+    height: 632px;
+    margin-left: 30px;
+}
+.price_block-header{
+    width: 1120px;
+    height: 56px;
+    background-image: linear-gradient(90deg, #F8F8F8, #FFFFFF);
+}
+.p4{
+    width: 338px;
+    height: 24px;
+    padding-left: 32px;
+    font-family: "TTLakes-Regular";
+    font-size: 16px;
+    color: #7E7E82;
+}
+.price_block-main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 1056px;
+    height: 356px;
+    background-color: white;
+}
+.price_block-main-header-1, .price_block-main-header-5,
+.price_block-main-header-9, .price_block-main-header-13,
+.price_block-main-header-17, .price_block-main-header-21{
+    padding-left: 50px;
+    font-size: 14px;
+    font-family: "TTLakes-Regular";
+    width: 348px;
+}
+.price_block-main-header-2, .price_block-main-header-6,
+.price_block-main-header-10, .price_block-main-header-14,
+.price_block-main-header-18, .price_block-main-header-22{
+    padding-left: 50px;
+    font-size: 14px;
+    font-family: "TTLakes-Regular";
+    width: 160px;
+}
+.price_block-main-header-3, .price_block-main-header-7,
+.price_block-main-header-11, .price_block-main-header-15,
+.price_block-main-header-19, .price_block-main-header-23{
+    padding-left: 50px;
+    font-size: 14px;
+    font-family: "TTLakes-Regular";
+    width: 200px;
+}
+.price_block-main-header-1, .price_block-main-header-2,
+.price_block-main-header-3, .price_block-main-header-4{
+    background-color: #F8F8F8;
+    font-size: 14px;
+    font-family: "TTLakes-Regular";
+}
+.p6{
+    margin-bottom: 0px;
+}
+.Group{
+    border: none;
+    background-color: white;
+    background-image: url(./img/Group10.png);
+    width: 119px;
+    height: 32px;
+    margin-top: 10px;
+}
+.p7{
+    padding-left: 50px;
+    margin-top: 0px;
+    font-size: 14px;
+    width: 421px;
+    height: 60px;
+    font-family: "TTLakes-Regular";
+}
+.Group11{
+    border: none;
+    margin-left: 50px;
+    background-color: #F8F8F8;
+    width: 316px;
+    height: 24px;
+    font-size: 16px;
+    font-family: "TTLakes-Regular";
+    background-image: url(./img/more.png);
+    background-repeat: no-repeat;
+    background-position: 300px 1px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 1120px;
+    height: 65px;
+}
+.items{
+    font-size: 14px;
+    font-family: "TTLakes-Regular";
+    padding-left: 50px;
+}
+.footer_item-1{
+    width: 300px;
+    padding-right: 10px;
+}
+.footer_item-2{
+    width: 300px;
+    text-align: center;
+    padding-right: 10px;
+}
+.footer_item-3{
+    text-align: end;
+    padding-right: 10px;
+}
+.modal_feedback{
+    display: grid;
+    width: 320px;
+    height: 750px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+.show-more1{
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/close.png);
+    background-repeat: no-repeat;
+    margin-top: 24px;
+    margin-left: 16px;
+    border: none;
+}
+.feedback_2{
+    width: 290px;
+    height: 40px;
+    border: none;
+    border-left: 4px solid #41F6D7;
+    padding-left: 10px;
+    font-family: "TTLakes-Bold";
+    font-size: 24px;
+}
+.p8{
+    margin: 0px;
+}
+.feedback_3, .feedback_4, .feedback_5, .feedback_6{
+    font-size: 16px;
+    font-family: "TTLakes-Regular";
+    justify-content: center;
+    border: 1px solid #EAEAEA;
+    border-radius: 5%;
+    margin-left: 16px;
+}
+.feedback_3, .feedback_4, .feedback_5{
+    width: 288px;
+    height: 48px;
+}
+.feedback_6{
+    width: 288px;
+    height: 118px;
+}
+.feedback_7{
+    margin-left: 16px;
+    width: 288px;
+    height: 64px;
+}
+.span-1{
+    font-family: "TTLakes-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+.span-2{
+    color: #FF3E79;
+}
+.Group12{
+    width: 136px;
+    height: 32px;
+    background-color: white;
+    border: none;
+    background-image: url(./img/Group11.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 136px;
+}
+.modal_call{
+    display: grid;
+    width: 320px;
+    height: 750px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 70px);
+    grid-gap: 10px;
+}
+.call_2{
+    width: 290px;
+    height: 40px;
+    border: none;
+    border-left: 4px solid #41F6D7;
+    padding-left: 10px;
+    font-family: "TTLakes-Bold";
+    font-size: 24px;
+}
+.call_7{
+    margin-left: 16px;
+    width: 288px;
+    height: 64px;
+}
+.call_4{
+    width: 288px;
+    height: 48px;
+    font-size: 16px;
+    font-family: "TTLakes-Regular";
+    justify-content: center;
+    border: 1px solid #EAEAEA;
+    border-radius: 5%;
+    margin-left: 16px;
+}
+.container_right{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 320px;
+    height: 1500px;
+    grid-gap: 250px;
+}
+.container_right{
+    display: none
+}
+
+@media (max-width: 768px) {
+    .container_left, .technique_4, .brend_4, .brend_8, .btn_8, .btn_1, .btn_2, .price_block-1{
+        display: none;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        width: 768px;
+        height: 1857px;
+    }
+    .container_main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(88px, 100px, 208px, 400px, 288px, 568px, 81px);
+        width: 1120px;
+        height: 1857px;
+    }
+    .header{
+        display: block;
+    }
+    .header{
+        display: flex;
+        width: 768px;
+        height: 88px;
+        background: #FFFFFF;
+        align-items: center;
+    }
+    .header_1{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        background-color: #F8F8F8;
+        width: 768px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    .icons{
+        height: 40px;
+        width: 40px;
+    }
+    .icon_1, .icon_3{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .icon_1, .icon_3, .icon_4, .icon_5,
+    .icon_6,  .icon_8, .icon_9{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .icon_4{
+        margin-left: 200px;
+        margin-right: 5px;
+    }
+    .icon_5{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .icon_6{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .icon_7{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .icon_8{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .icon_9{
+        margin-left: 5px;
+        margin-right: 30px;
+    }
+    .text-image{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        width: 720px;
+        height: 208px;
+        background-color: #F8F8F8;
+    }
+    .text{
+        width: 312px;
+        height: 160px;
+        font-family: "TTLakes-Regular";
+        overflow: hidden;
+    }
+    .p3{
+        font-family: "TTLakes-Regular";
+        font-size: 14px;
+    }
+    .image{
+        background-image: url(./img/_MG_32231.png);
+        background-repeat: no-repeat;
+    }
+    .brends-block{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 768px;
+        height: 400px;
+        background-color: #F8F8F8;
+    }
+    .brends{
+        max-height: 210px;
+        overflow: hidden;
+    }
+    .brend{
+        width: 224px;
+        height: 72px;
+        border: none;
+        background-color: #FFFFFF;
+        margin-left: 22px;
+    }
+    .brends_items_1{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .brend_1{
+        background-image: url(img/imgBrends/Lenovo.png);
+        background-repeat: no-repeat;
+    }
+    .brend_2{
+        background-image: url(img/imgBrends/Samsung.png);
+        background-repeat: no-repeat;
+    }
+    .brend_3{
+        background-image: url(img/imgBrends/Apple.png);
+        background-repeat: no-repeat;
+    }
+    .brend_5{
+        background-image: url(img/imgBrends/Bosch.png);
+        background-repeat: no-repeat;
+    }
+    .brend_6{
+        background-image: url(img/imgBrends/Hp.png);
+        background-repeat: no-repeat;
+    }
+    .brend_7{
+        background-image: url(img/imgBrends/Acer.png);
+        background-repeat: no-repeat;
+    }
+    .brend_9{
+        background-image: url(img/imgBrends/Lenovo.png);
+        background-repeat: no-repeat;
+    }
+    .brend_10{
+        background-image: url(img/imgBrends/Samsung.png);
+        background-repeat: no-repeat;
+    }
+    .brend_11{
+        background-image: url(img/imgBrends/Apple.png);
+        background-repeat: no-repeat;
+    }
+    .brends{
+        max-height: 210px;
+        overflow: hidden;
+    }
+    .read-more-cheker1{
+        opacity: 0;
+        position: absolute;
+    }
+    .read-more-button1{
+        cursor: pointer;
+        display: inline-block;
+        font-family: "TTLakes-Regular";
+        margin-left: 32px;
+    }
+    .read-more-cheker1 ~ .read-more-button1:after{
+        width: 133px;
+        height: 24px;
+        font-size: 16px;
+        content: url('./img/expand.png')"Показать все";
+    }
+    .read-more-cheker1:checked ~ .read-more-button1:after{
+        width: 88px;
+        height: 24px;
+        font-size: 16px;
+        content: url('./img/expand.png')"Скрыть";
+    }
+    .read-more-cheker1:checked ~ .brends{
+        max-height: none;
+    }
+    .tech-block{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 768px;
+        height: 288px;
+        background-color: #F8F8F8;
+    }
+    .tech-block-header{
+        width: 768px;
+        height: 56px;
+        background-image: linear-gradient(90deg, #F8F8F8, #FFFFFF);
+    }
+    .p5{
+        font-size: 16px;
+        font-family: "TTLakes-Regular";
+        width: 316px;
+        height: 24px;
+        padding-left: 32px
+    }
+    .techniques{
+        display: grid;
+        grid-template-columns: repeat(4, 240px);
+        grid-template-rows: repeat(1, 160px);
+        grid-gap: 10px;
+        width: 768px;
+        height: 130px;
+        overflow: hidden;
+    }
+    .technique{
+        width: 224px;
+        height: 160px;
+        font-size: 16px;
+        font-family: "TTLakes-Regular";
+        background-color: white;
+        margin-left: 10px;
+    }
+    .read-more-cheker2{
+        opacity: 0;
+        position: absolute;
+    }
+    .read-more-button2{
+        cursor: pointer;
+        display: inline-block;
+        font-family: "TTLakes-Regular";
+        margin-left: 32px;
+    }
+    .read-more-cheker2 ~ .read-more-button2:after{
+        width: 133px;
+        height: 24px;
+        font-size: 16px;
+        content: url('./img/expand.png')"Показать все";
+    }
+    .read-more-cheker2:checked ~ .read-more-button2:after{
+        width: 88px;
+        height: 24px;
+        font-size: 16px;
+        content: url('./img/expand.png')"Скрыть";
+    }
+    .read-more-cheker2:checked ~ .brends{
+        max-height: none;
+    }
+    .price_block{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 56px, 576px);
+        background-color: #F8F8F8;
+        width: 768px;
+        height: 568px;
+        margin-left: 10px;
+    }
+    .price_block-header{
+        width: 768px;
+        height: 57px;
+        background-image: linear-gradient(90deg, #F8F8F8, #FFFFFF);
+    }
+    .p4{
+        width: 338px;
+        height: 24px;
+        padding-left: 32px;
+        font-family: "TTLakes-Regular";
+        font-size: 16px;
+        color: #7E7E82;
+    }
+    .price_block-main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        width: 720px;
+        height: 324px;
+        background-color: white;
+        padding-left: 10px;
+    }
+    .price_block-main-header-1, .price_block-main-header-5,
+    .price_block-main-header-9, .price_block-main-header-13,
+    .price_block-main-header-17, .price_block-main-header-21{
+        font-size: 14px;
+        font-family: "TTLakes-Regular";
+        width: 348px;
+        padding-left: 10px;
+    }
+    .price_block-main-header-2, .price_block-main-header-6,
+    .price_block-main-header-10, .price_block-main-header-14,
+    .price_block-main-header-18, .price_block-main-header-22{
+        font-size: 14px;
+        font-family: "TTLakes-Regular";
+        width: 74px;
+        padding-left: 10px;
+    }
+    .price_block-main-header-3, .price_block-main-header-7,
+    .price_block-main-header-11, .price_block-main-header-15,
+    .price_block-main-header-19, .price_block-main-header-23{
+        font-size: 14px;
+        font-family: "TTLakes-Regular";
+        width: 81px;
+        padding-left: 10px;
+        background-color: white;
+    }
+    .price_block-main-header-1, .price_block-main-header-2,
+    .price_block-main-header-3, .price_block-main-header-4{
+        background-color: #F8F8F8;
+        font-size: 14px;
+        font-family: "TTLakes-Regular";
+        padding-left: 10px;
+    }
+    .p6{
+        margin-bottom: 0px;
+    }
+    .Group{
+        border: none;
+        background-color: white;
+        background-image: url(./img/Group10.png);
+        width: 119px;
+        height: 32px;
+        margin-top: 10px;
+    }
+    .p7{
+        padding-left: 20px;
+        margin-top: 0px;
+        font-size: 14px;
+        width: 421px;
+        height: 60px;
+        font-family: "TTLakes-Regular";
+    }
+    .Group11{
+        border: none;
+        margin-left: 10px;
+        background-color: #F8F8F8;
+        width: 316px;
+        height: 24px;
+        font-size: 16px;
+        font-family: "TTLakes-Regular";
+        background-image: url(./img/more.png);
+        background-repeat: no-repeat;
+        background-position: 300px 1px;
+    }
+    .footer{
+        width: 768px;
+        height: 81px;
+    }
+    .footer_item-1{
+        width: 218px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .footer_item-2{
+        width: 214px;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .footer_item-3{
+        width: 213px;
+        text-align: end;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .container_left, .technique_4, .brend_4, .brend_8, .icon_2, .icon_4, .icon_5, .icon_6,
+    .brend_3, .brend_4, .brend_5, .brend_6, .brend_7, .brend_8, .brend_9, .brend_10,
+    .brend_11, .btn_8, .price_block{
+        display: none;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        width: 320px;
+        height: 1810px;
+    }
+    .container_main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        width: 1120px;
+        height: 1810px;
+    }
+    .header{
+        display: block;
+    }
+    .header{
+        display: flex;
+        width: 320px;
+        height: 88px;
+        background: #FFFFFF;
+        align-items: center;
+    }
+    .icons{
+        height: 40px;
+        width: 40px;
+    }
+    .icon_1, .icon_3,.icon_8, .icon_9{
+        margin: 10px;
+    }
+    .header_1{
+        width: 320px;
+        height: 100px;
+        overflow: hidden;
+        margin: 0px;
+    }
+    .text-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 320px;
+        height: 322px;
+        background-color: #F8F8F8;
+    }
+    .text{
+        width: 288px;
+        height: 90px;
+        font-family: "TTLakes-Regular";
+        overflow: hidden;
+    }
+    .p3{
+        font-family: "TTLakes-Regular";
+        font-size: 14px;
+        width: 288px;
+        height: 90px;
+        font-family: "TTLakes-Regular";
+        overflow: hidden;
+    }
+    .image{
+        background-image: url(./img/_MG_32232.png);
+        background-repeat: no-repeat;
+    }
+    .brends-block{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 320px;
+        height: 196px;
+        background-color: #F8F8F8;
+        overflow: hidden;
+    }
+    .brends{
+        max-height: 210px;
+        overflow: hidden;
+    }
+    .brend{
+        width: 224px;
+        height: 72px;
+        border: none;
+        background-color: #FFFFFF;
+        margin-left: 22px;
+    }
+    .brends_items_1{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .brend_1{
+        background-image: url(img/imgBrends/Lenovo.png);
+        background-repeat: no-repeat;
+    }
+    .brend_2{
+        background-image: url(img/imgBrends/Samsung.png);
+        background-repeat: no-repeat;
+    }
+    .brend_3{
+        background-image: url(img/imgBrends/Apple.png);
+        background-repeat: no-repeat;
+    }
+    .brend_5{
+        background-image: url(img/imgBrends/Bosch.png);
+        background-repeat: no-repeat;
+    }
+    .brend_6{
+        background-image: url(img/imgBrends/Hp.png);
+        background-repeat: no-repeat;
+    }
+    .brend_7{
+        background-image: url(img/imgBrends/Acer.png);
+        background-repeat: no-repeat;
+    }
+    .brend_9{
+        background-image: url(img/imgBrends/Lenovo.png);
+        background-repeat: no-repeat;
+    }
+    .brend_10{
+        background-image: url(img/imgBrends/Samsung.png);
+        background-repeat: no-repeat;
+    }
+    .brend_11{
+        background-image: url(img/imgBrends/Apple.png);
+        background-repeat: no-repeat;
+    }
+    .brends{
+        max-height: 210px;
+        overflow: hidden;
+    }
+    .read-more-cheker1{
+        opacity: 0;
+        position: absolute;
+    }
+    .read-more-button1{
+        cursor: pointer;
+        display: inline-block;
+        font-family: "TTLakes-Regular";
+        margin-left: 32px;
+    }
+    .read-more-cheker1 ~ .read-more-button1:after{
+        width: 133px;
+        height: 24px;
+        font-size: 16px;
+        content: url('./img/expand.png')"Показать все";
+    }
+    .read-more-cheker1:checked ~ .read-more-button1:after{
+        width: 88px;
+        height: 24px;
+        font-size: 16px;
+        content: url('./img/expand.png')"Скрыть";
+    }
+    .read-more-cheker1:checked ~ .brends{
+        max-height: none;
+    }
+    .tech-block{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 320px;
+        height: 288px;
+        background-color: #F8F8F8;
+        overflow: hidden;
+    }
+    .tech-block-header{
+        width: 320px;
+        height: 80px;
+        background-image: linear-gradient(90deg, #F8F8F8, #FFFFFF);
+
+    }
+    .p5{
+        font-size: 16px;
+        font-family: "TTLakes-Regular";
+        width: 316px;
+        height: 24px;
+        padding-left: 32px
+    }
+    .techniques{
+        display: grid;
+        grid-template-columns: repeat(4, 240px);
+        grid-template-rows: repeat(1, 160px);
+        grid-gap: 10px;
+        width: 320px;
+        height: 130px;
+        overflow: hidden;
+    }
+    .technique{
+        width: 224px;
+        height: 160px;
+        font-size: 16px;
+        font-family: "TTLakes-Regular";
+        background-color: white;
+        margin-left: 10px;
+    }
+    .read-more-cheker2{
+        opacity: 0;
+        position: absolute;
+    }
+    .read-more-button2{
+        cursor: pointer;
+        display: inline-block;
+        font-family: "TTLakes-Regular";
+        margin-left: 32px;
+    }
+    .read-more-cheker2 ~ .read-more-button2:after{
+        width: 133px;
+        height: 24px;
+        font-size: 16px;
+        content: url('./img/expand.png')"Показать все";
+    }
+    .read-more-cheker2:checked ~ .read-more-button2:after{
+        width: 88px;
+        height: 24px;
+        font-size: 16px;
+        content: url('./img/expand.png')"Скрыть";
+    }
+    .read-more-cheker2:checked ~ .brends{
+        max-height: none;
+    }
+    .price_blocks-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(56px, 576px);
+        background-color: #F8F8F8;
+        width: 320px;
+        height: 508px;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+    .price_block-header{
+        width: 320px;
+        height: 56px;
+        background-image: linear-gradient(90deg, #F8F8F8, #FFFFFF);
+    }
+    .p4{
+        width: 320px;
+        height: 24px;
+        padding-left: 32px;
+        font-family: "TTLakes-Regular";
+        font-size: 16px;
+        color: #7E7E82;
+    }
+    .price_block-1{
+        display: grid;
+        font-family: "TTLakes-Regular";
+        font-size: 14px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 260px;
+        height: 200px;
+        background-color: white;
+    }
+    .wrapper{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .slider-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(56px, 576px);
+        background-color: #F8F8F8;
+        width: 320px;
+        height: 160px;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+    .slider-track{
+        display: flex;
+        background-color: yellow;
+        transition: .2s;
+    }
+    .slider-item{
+        height: 160px;
+        width: 240px;
+    }
+    .slider-item:nth-child(3n+1){
+        display: grid;
+        font-family: "TTLakes-Regular";
+        font-size: 14px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 260px;
+        height: 160px;
+        background-color: white;
+    }
+    .slider-item:nth-child(3n+2){
+        display: grid;
+        font-family: "TTLakes-Regular";
+        font-size: 14px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 260px;
+        height: 160px;
+        background-color: white;
+    }
+    .slider-item:nth-child(3n+3){
+        display: grid;
+        font-family: "TTLakes-Regular";
+        font-size: 14px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 260px;
+        height: 160px;
+        background-color: white;
+    }
+    .slider-button{
+        text-align: center;
+    }
+    .prev, .next{
+        background-image: url(./img/Oval\ Copy\ 10.png);
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: none;
+    }
+    .Group{
+        border: none;
+        background-color: white;
+        background-image: url(./img/Group10.png);
+        background-repeat: no-repeat;
+        width: 119px;
+        height: 32px;
+    }
+    p{
+      color: #7E7E82;
+      margin: 0px;
+    }
+    .block_1-3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .p7{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(137px 54px);
+        padding-left: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        width: 228px;
+        height: 191px;
+        font-family: "TTLakes-Regular";
+    }
+    .Group11{
+        border: none;
+        margin-left: 10px;
+        background-color: #F8F8F8;
+        width: 192px;
+        height: 54px;
+        font-size: 14px;
+        font-family: "TTLakes-Regular";
+        background-image: url(./img/more.png);
+        background-repeat: no-repeat;
+        background-position: 300px 1px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 300px;
+        align-content: center;
+        height: 129px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .footer_item-1{
+        align-self: center;
+        text-align: center;
+        width: 218px;
+    }
+    .footer_item-2{
+        width: 214px;
+        text-align: center;
+    }
+    .footer_item-3{
+        width: 213px;
+        text-align: center;
+    }
+}
